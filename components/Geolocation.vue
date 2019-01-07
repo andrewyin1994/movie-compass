@@ -1,11 +1,9 @@
 <template>
-  <section class="container">
-    <div>
-      <h2>Geolocation</h2>
-      <p>Lat: {{ lat }}</p>
-      <p>Lng: {{ lng }}</p>
-    </div>
-  </section>
+  <div class="geolocation">
+    <h2>Geolocation</h2>
+    <p>Lat: {{ lat }}</p>
+    <p>Lng: {{ lng }}</p>
+  </div>
 </template>
 
 <script>

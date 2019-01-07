@@ -1,17 +1,22 @@
 <template>
   <section class="container">
-    <Geolocation />
+    <!-- <Geolocation /> -->
+    <Landing />
   </section>
 </template>
 
 <script>
-import Geolocation from "../components/Geolocation.vue";
+// import Geolocation from "../components/Geolocation.vue";
+import Landing from "../components/landing.vue";
 
 export default {
+  layout: "home-layout",
   components: {
-    Geolocation
+    Landing
+    // Geolocation
   }
 };
 </script>
 
-<style></style>
+<style>
+</style>
