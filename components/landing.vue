@@ -19,8 +19,8 @@ export default {
 
 <style>
 div {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
