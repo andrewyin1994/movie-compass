@@ -1,22 +1,20 @@
 <template>
-  <section class="container">
-    <!-- <Geolocation /> -->
-    <Landing />
+  <section class="container-fluid">
+    <Poster/>
+    <div style="height: 1000px"/>
   </section>
 </template>
 
 <script>
-// import Geolocation from "../components/Geolocation.vue";
-import Landing from "../components/landing.vue";
+import Poster from '../components/Poster.vue';
 
 export default {
   layout: "home-layout",
   components: {
-    Landing
-    // Geolocation
+    Poster
   }
 };
 </script>
 
-<style>
+<style lang="scss">
 </style>
